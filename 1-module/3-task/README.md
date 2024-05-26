@@ -13,3 +13,12 @@ ucFirst('вася') === 'Вася';
 ucFirst('в') === 'В';
 ucFirst('') === '';
 ```
+
+let ucFirst = (str) => {
+if(ucFirst('в') === 'В' && ucFirst('') === '') {
+ucFirst.toUpperCase()
+}
+return ucFirst 
+} 
+
+
